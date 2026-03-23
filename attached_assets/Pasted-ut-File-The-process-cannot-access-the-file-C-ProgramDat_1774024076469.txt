@@ -1,0 +1,48 @@
+ut-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+[2026-03-20 20:27:22]   Config: C:\ProgramData\HolocronProbe\probe.conf
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+[2026-03-20 20:27:22]   Logs:   C:\ProgramData\HolocronProbe\probe.log
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+[2026-03-20 20:27:22]   Status: Get-Service -Name HolocronProbe
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+[2026-03-20 20:27:22]   Stop:   Stop-Service -Name HolocronProbe
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  HolocronProbe      HOLOCRON Probe Agent

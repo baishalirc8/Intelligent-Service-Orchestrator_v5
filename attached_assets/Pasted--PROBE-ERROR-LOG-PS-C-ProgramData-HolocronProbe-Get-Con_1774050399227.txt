@@ -1,0 +1,32 @@
+
+=== PROBE-ERROR.LOG ===
+PS C:\ProgramData\HolocronProbe> Get-Content "$env:TEMP\probe-err-snap.log" -Tail 30
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+Out-File : The process cannot access the file 'C:\ProgramData\HolocronProbe\probe.log' because it is being used by
+another process.
+At C:\ProgramData\HolocronProbe\holocron-probe.ps1:68 char:44
++ ... $Message" | Out-File -Append -FilePath $LogPath -Encoding UTF8 -Error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
